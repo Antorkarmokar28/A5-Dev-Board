@@ -11,9 +11,30 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="bg-red-400">
+  <body class="bg-sky-50 min-h-screen">
     <main>
-      <h1>Hello</h1>
+      <!-- header -->
+      <header
+        class="bg-white shadow-lg container mx-auto p-6 rounded-xl md:flex items-center justify-between"
+      >
+        <div class="flex items-center gap-4">
+          <img src="./assets/logo.png" alt="logo" />
+          <h4 class="text-xl font-bold">DevBoard</h4>
+        </div>
+        <div class="flex gap-4 mt-4 md:mt-0">
+          <!-- check-box -->
+          <div class="badge badge-soft badge-info py-6 rounded-full">
+            <img src="./assets/checkbox.png" alt="check-box" />
+            <p class="font-bold text-xl text-black">23</p>
+          </div>
+          <!-- button -->
+          <div class="avatar bg-sky-50 rounded-full">
+            <button class="w-12 cursor-pointer">
+              <img class="w-full" src="./assets/theme-btn.png" />
+            </button>
+          </div>
+        </div>
+      </header>
     </main>
     <script src="utilities/utilities.js"></script>
     <script src="script/index.js"></script>
