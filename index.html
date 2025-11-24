@@ -25,7 +25,7 @@
           <!-- check-box -->
           <div class="badge badge-soft badge-info py-6 rounded-full">
             <img src="./assets/checkbox.png" alt="check-box" />
-            <p class="font-bold text-xl text-black">23</p>
+            <p id="task-count" class="font-bold text-xl text-black">23</p>
           </div>
           <!-- button -->
           <div class="avatar bg-sky-50 rounded-full">
@@ -54,7 +54,7 @@
                     </div>
                     <div>
                       <p class="text-lg font-bold">Task Assigned</p>
-                      <span class="text-lg font-bold">6</span>
+                      <span id="task-number" class="text-lg font-bold">6</span>
                     </div>
                   </div>
                 </div>
@@ -96,8 +96,10 @@
               <div class="card bg-indigo-50 card-md shadow-sm">
                 <div class="card-body">
                   <div class="badge badge-ghost">Shop Ease</div>
-                  <h2 class="card-title">Fix Mobile Button Issue</h2>
-                  <p class="bg-white p-4 rounded-lg">
+                  <h2 id="task-title" class="card-title">
+                    Fix Mobile Button Issue
+                  </h2>
+                  <p id="task-description" class="bg-white p-4 rounded-lg">
                     A card component has a figure, a body part, and inside body
                     there are title and actions parts
                   </p>
@@ -106,7 +108,9 @@
                       <p>Deadline</p>
                       <span class="font-bold">21 March 2025</span>
                     </div>
-                    <button class="btn btn-primary">Completed</button>
+                    <button id="task-button-1" class="btn btn-primary">
+                      Completed
+                    </button>
                   </div>
                 </div>
               </div>
@@ -124,7 +128,9 @@
                       <p>Deadline</p>
                       <span class="font-bold">25 March 2025</span>
                     </div>
-                    <button class="btn btn-primary">Completed</button>
+                    <button id="task-button-2" class="btn btn-primary">
+                      Completed
+                    </button>
                   </div>
                 </div>
               </div>
@@ -142,7 +148,9 @@
                       <p>Deadline</p>
                       <span class="font-bold">31 March 2025</span>
                     </div>
-                    <button class="btn btn-primary">Completed</button>
+                    <button id="task-button-3" class="btn btn-primary">
+                      Completed
+                    </button>
                   </div>
                 </div>
               </div>
@@ -160,7 +168,9 @@
                       <p>Deadline</p>
                       <span class="font-bold">21 March 2025</span>
                     </div>
-                    <button class="btn btn-primary">Completed</button>
+                    <button id="task-button-4" class="btn btn-primary">
+                      Completed
+                    </button>
                   </div>
                 </div>
               </div>
@@ -178,7 +188,9 @@
                       <p>Deadline</p>
                       <span class="font-bold">01 April 2025</span>
                     </div>
-                    <button class="btn btn-primary">Completed</button>
+                    <button id="task-button-5" class="btn btn-primary">
+                      Completed
+                    </button>
                   </div>
                 </div>
               </div>
@@ -196,7 +208,9 @@
                       <p>Deadline</p>
                       <span class="font-bold">05 May 2025</span>
                     </div>
-                    <button class="btn btn-primary">Completed</button>
+                    <button id="task-button-6" class="btn btn-primary">
+                      Completed
+                    </button>
                   </div>
                 </div>
               </div>
@@ -217,6 +231,7 @@
                 </div>
               </div>
             </div>
+            <div id="task-container" class="space-y-6"></div>
           </aside>
         </div>
       </section>
