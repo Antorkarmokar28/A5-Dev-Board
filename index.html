@@ -11,7 +11,7 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="bg-sky-50 min-h-screen">
+  <body id="body" class="bg-sky-50 min-h-screen">
     <main>
       <!-- header -->
       <header
@@ -29,7 +29,7 @@
           </div>
           <!-- button -->
           <div class="avatar bg-sky-50 rounded-full">
-            <button class="w-12 cursor-pointer">
+            <button id="change-bg-color-btn" class="w-12 cursor-pointer">
               <img class="w-full" src="./assets/theme-btn.png" />
             </button>
           </div>
@@ -63,7 +63,7 @@
               <div
                 class="card card-dash bg-linear-65 from-indigo-500 to-indigo-200 col-span-2 cursor-pointer"
               >
-                <div class="card-body flex justify-center">
+                <div id="QNA-box" class="card-body flex justify-center">
                   <div
                     class="flex items-center gap-4 items-center w-4/5 mx-auto"
                   >
